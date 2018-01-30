@@ -26,3 +26,19 @@ ul {
         background-color: rgb(163,145,147);
     }
 }
+
+.info-box{
+    display: flex;
+    border: solid 1px $text-color;
+    div{
+        margin: 20px;
+    }
+    .image-box{
+        flex: 1;
+        height: 200px;
+        background-color: rgb(163,145,147);
+    }
+    .text-box{
+        flex: 2;
+    }
+}

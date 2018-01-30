@@ -15,4 +15,16 @@ ul {
   ul li:hover {
     background-color: #a39193; }
 
+.info-box {
+  display: flex;
+  border: solid 1px #f6e0b5; }
+  .info-box div {
+    margin: 20px; }
+  .info-box .image-box {
+    flex: 1;
+    height: 200px;
+    background-color: #a39193; }
+  .info-box .text-box {
+    flex: 2; }
+
 /*# sourceMappingURL=main.css.map */
