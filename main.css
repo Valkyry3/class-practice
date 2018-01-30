@@ -1,6 +1,7 @@
 body {
   background-color: #66545e;
-  color: #f6e0b5; }
+  color: #f6e0b5;
+  font-size: 30px; }
 
 * {
   margin: 0; }
@@ -29,5 +30,9 @@ ul {
   .info-box .text-box {
     flex: 2;
     min-width: 200px; }
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 20px; } }
 
 /*# sourceMappingURL=main.css.map */

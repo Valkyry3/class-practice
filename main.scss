@@ -5,6 +5,7 @@ $standard-spacing: 60px;
 body {
     background-color: $main-color;
     color: $text-color;
+    font-size: 30px;
 }
 
 * {
@@ -44,4 +45,10 @@ ul {
         flex: 2;
         min-width: 200px;
     }
+}
+
+@media(max-width: 1200px) {
+    body {
+        font-size: 20px;
+    }    
 }
