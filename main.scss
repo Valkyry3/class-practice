@@ -1,9 +1,19 @@
+$main-color: rgb(102,84,94);
+$text-color: rgb(246,224,181);
+$standard-spacing: 60px;
+
 body {
-    background-color: aqua;
+    background-color: $main-color;
+    color: $text-color;
 }
 
-h1 {
-    color: coral;
+* {
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $text-color;
+    
 }
 
 ul {
@@ -11,5 +21,8 @@ ul {
     
     li {
        padding: 10px; 
+    }
+    li:hover {
+        background-color: rgb(163,145,147);
     }
 }
