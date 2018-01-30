@@ -6,7 +6,7 @@ body {
   margin: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #f6e0b5; }
+  color: #eea990; }
 
 ul {
   list-style: none; }
@@ -17,14 +17,17 @@ ul {
 
 .info-box {
   display: flex;
+  flex-wrap: wrap;
   border: solid 1px #f6e0b5; }
   .info-box div {
     margin: 20px; }
   .info-box .image-box {
     flex: 1;
+    min-width: 200px;
     height: 200px;
     background-color: #a39193; }
   .info-box .text-box {
-    flex: 2; }
+    flex: 2;
+    min-width: 200px; }
 
 /*# sourceMappingURL=main.css.map */
